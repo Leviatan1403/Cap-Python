@@ -14,7 +14,6 @@ packages = [
     { include = "laboratorio", from = "src" }
 ]
 
-
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
@@ -32,40 +31,28 @@ dev = [
 # =========================
 
 [tool.black]
-
 line-length = 88
-
 target-version = [
     "py312"
 ]
-
-
 
 # =========================
 # ISORT
 # =========================
 
 [tool.isort]
-
 profile = "black"
-
 line_length = 88
-
-
 
 # =========================
 # RUFF
 # =========================
 
 [tool.ruff]
-
 line-length = 88
-
 target-version = "py312"
 
-
 [tool.ruff.lint]
-
 select = [
     "E",
     "F",
