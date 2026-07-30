@@ -1,0 +1,17 @@
+2026-07-30 11:08:17,788 | INFO | main | =================================
+2026-07-30 11:08:17,788 | INFO | main | Inicio del procesamiento de ventas
+2026-07-30 11:08:17,788 | DEBUG | main | Rutas validadas correctamente
+2026-07-30 11:08:17,788 | INFO | procesador | Iniciando lectura del archivo CSV: D:\Documentos\WorkSpaceServer\Capacitacion Python\cap-python\src\basic-level\lab06\datos\ventas.csv
+2026-07-30 11:08:17,788 | INFO | procesador | CSV leído correctamente. Registros válidos: 5
+2026-07-30 11:08:17,788 | INFO | main | Ventas cargadas correctamente: 5
+2026-07-30 11:08:17,789 | INFO | procesador | Calculando métricas de ventas
+2026-07-30 11:08:17,789 | DEBUG | procesador | Métricas calculadas: {'ventas_procesadas': 5, 'productos_diferentes': 4, 'unidades_vendidas': 15, 'ingresos_totales': 61950.0}
+2026-07-30 11:08:17,790 | INFO | main | Métricas calculadas correctamente
+2026-07-30 11:08:17,790 | DEBUG | main | Métricas obtenidas: {'ventas_procesadas': 5, 'productos_diferentes': 4, 'unidades_vendidas': 15, 'ingresos_totales': 61950.0}
+2026-07-30 11:08:17,790 | INFO | reportes | Generando estructura del reporte
+2026-07-30 11:08:17,790 | DEBUG | reportes | Reporte generado: {'fecha_generacion': '2026-07-30T11:08:17.790462-06:00', 'metricas': {'ventas_procesadas': 5, 'productos_diferentes': 4, 'unidades_vendidas': 15, 'ingresos_totales': 61950.0}}
+2026-07-30 11:08:17,790 | INFO | reportes | Exportando reporte JSON: D:\Documentos\WorkSpaceServer\Capacitacion Python\cap-python\src\basic-level\lab06\datos\reporte.json
+2026-07-30 11:08:17,790 | INFO | reportes | Reporte exportado correctamente
+2026-07-30 11:08:17,790 | INFO | main | Reporte generado correctamente: D:\Documentos\WorkSpaceServer\Capacitacion Python\cap-python\src\basic-level\lab06\datos\reporte.json
+2026-07-30 11:08:17,790 | INFO | main | Fin del procesamiento
+2026-07-30 11:08:17,791 | INFO | main | =================================
