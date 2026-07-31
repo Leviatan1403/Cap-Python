@@ -1,0 +1,67 @@
+smocks:
+
+  - request:
+      method: GET
+      path: /users
+
+    response:
+      status: 200
+
+      headers:
+        Content-Type: application/json
+
+      body: |
+        [
+          {
+            "id":1,
+            "name":"Juan"
+          },
+          {
+            "id":2,
+            "name":"Ana"
+          }
+        ]
+
+
+  - request:
+      method: GET
+      path: /error
+
+    response:
+      status: 500
+
+      body: Internal Server Error
+
+
+  - request:
+      method: GET
+      path: /slow
+
+    response:
+      status: 200
+      delay: 5000
+
+      body: |
+        {
+            "status":"slow response"
+        }
+
+
+  - request:
+      method: GET
+      path: /file
+
+    response:
+      status: 200
+
+      headers:
+        Content-Type: application/octet-stream
+
+      body: |
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
