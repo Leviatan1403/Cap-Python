@@ -1,4 +1,4 @@
-# Cap-Python
+# Capacitación Python
 
 ## Nivel Intermedio
 ### Laboratorio 1
@@ -17,8 +17,9 @@
 >[!IMPORTANT]
 > La base de datos de este laboratorio esta generada y cargada en el repositorio.
 ### Laboratorio 3 (Módulo. Pruebas y TDD)
+* Para la ejecución de sebe estar dentro de la ruta: ***/src/intermediate-level/lab02***
 * Para ejecutar las pruebas: `pytest`<br/>
 * Para conocer la covertura: `pytest --cov=app`<br/>
-* Para generar el reporte HTML: `pytest --cov=app --cov-report=html`
+* Para generar el reporte HTML: `pytest --cov=app --cov-report=html`<br/>
   La ruta del reporte es la siguiente: `htmlcov/index.html`
 
