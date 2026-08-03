@@ -2,7 +2,7 @@
 
 ## Nivel Intermedio
 ### Laboratorio 1
- * Para la ejecución de sebe estar dentro de la ruta <sup>/src/intermediate-level/lab01</sup>
+ * Para la ejecución de sebe estar dentro de la ruta ***/src/intermediate-level/lab01***
  * Comando para la ejecución del Laboratorio: `poetry run python -m app.main`<br/>
 > [!NOTE]
 > El laboratorio cuenta con una conexión a SQL Server adjunto la base de datos para restaurarla.
