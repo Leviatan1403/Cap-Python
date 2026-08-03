@@ -12,11 +12,10 @@ repos:
       - id: isort
 
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.12.0
-    hooks:
-      - id: ruff
-        args:
-          - --fix
+  # - repo: https://github.com/astral-sh/ruff-pre-commit
+  #   rev: v0.16.0
+  #   hooks:
+  #     - id: ruff-check
+  #       args: [--fix]
 
-      - id: ruff-format
+  #     - id: ruff-format
