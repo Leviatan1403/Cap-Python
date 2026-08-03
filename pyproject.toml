@@ -27,6 +27,7 @@ dependencies = [
     "bcrypt (==4.0.1)",
     "pytest-cov (>=7.1.0,<8.0.0)",
     "hypothesis (>=6.165.0,<7.0.0)",
+    "pytest-asyncio (>=1.4.0,<2.0.0)",
 ]
 
 packages = [
@@ -64,6 +65,7 @@ target-version = [
 [tool.isort]
 profile = "black"
 line_length = 88
+skip_glob = ["src/intermediate-level/lab02/**"]
 
 # =========================
 # RUFF

@@ -1,7 +1,8 @@
+from fastapi import FastAPI
+
 from app.database import Base, engine
 from app.middleware import configure_middleware
 from app.routers import auth, orders
-from fastapi import FastAPI
 
 # ============================================
 # Crear tablas en la Base de Datos

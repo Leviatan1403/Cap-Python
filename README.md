@@ -17,9 +17,18 @@
 >[!IMPORTANT]
 > La base de datos de este laboratorio esta generada y cargada en el repositorio.
 ### Laboratorio 3 (Módulo. Pruebas y TDD)
-* Para la ejecución de sebe estar dentro de la ruta: ***/src/intermediate-level/lab02***
+* Para la ejecución de sebe estar dentro de la ruta: ***/src/intermediate-level/lab03***
 * Para ejecutar las pruebas: `pytest`<br/>
 * Para conocer la covertura: `pytest --cov=app`<br/>
 * Para generar el reporte HTML: `pytest --cov=app --cov-report=html`<br/>
   La ruta del reporte es la siguiente: `htmlcov/index.html`
+### Laboratorio 4 (Módulo. Concurrencia y rendimiento)
+* Para la ejecución de sebe estar dentro de la ruta: ***/src/intermediate-level/lab04***
+* Ejecutar versión síncrona con: `python main.py`<br/>
+* Modificar el semáforo `async def fetch_all(urls, limit=5):` modificando el parametro ***limit***, prueba con:
+    - 1
+    - 2
+    - 5
+    - 10
 
+* Ejecuta las pruebas: `pytest`

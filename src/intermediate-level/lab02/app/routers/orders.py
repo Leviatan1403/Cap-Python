@@ -1,10 +1,11 @@
 from typing import List
 
+from fastapi import APIRouter, Depends, HTTPException, status
+from sqlalchemy.orm import Session
+
 from app.dependencies import get_current_user, get_db
 from app.models import Order
 from app.schemas import OrderCreate, OrderResponse, OrderUpdate
-from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
 
 router = APIRouter(prefix="/orders", tags=["Orders"])
 
