@@ -14,3 +14,6 @@ __pycache__/
 
 # Ruff
 .ruff_cache/
+
+src/intermediate-level/lab03/htmlcov/
+htmlcov/

@@ -16,3 +16,9 @@
     -[http://127.0.0.1:8000/docs#](http://127.0.0.1:8000/docs#)   --> muestra el swagger<br/>
 >[!IMPORTANT]
 > La base de datos de este laboratorio esta generada y cargada en el repositorio.
+### Laboratorio 3 (Módulo. Pruebas y TDD)
+* Para ejecutar las pruebas: `pytest`<br/>
+* Para conocer la covertura: `pytest --cov=app`<br/>
+* Para generar el reporte HTML: `pytest --cov=app --cov-report=html`
+  La ruta del reporte es la siguiente: `htmlcov/index.html`
+
