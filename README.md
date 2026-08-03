@@ -36,3 +36,10 @@
     - 10
 
 * Ejecuta las pruebas: `pytest`
+### Laboratorio 5 (Módulo. Principios SOLID aplicados en Python)
+>[!IMPORTANT]
+> Para la ejecución de sebe estar dentro de la ruta: ***/src/intermediate-level/lab05***
+* Validamos que el repo ***repo = repository_factory("memory")*** contenga el parametro `memory` en el archivo ***main.py*** y ejecutamos el comando: `poetry run python -m app.main`<br/>
+* Despues cambiamos el parametro `memory` por el de `sql` en la linea ***repo = repository_factory("sql")*** y ejecutamos el comando: `poetry run python -m app.main`<br/>
+* Validamos que ambos casos tiene la misma respues y que en una de ellas se genera la base product.db<br/>
+* Por ultimo ejecutamos las pruebas: `pytest`
